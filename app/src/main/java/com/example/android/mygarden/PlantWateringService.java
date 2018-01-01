@@ -17,9 +17,12 @@ package com.example.android.mygarden;
 */
 
 import android.app.IntentService;
+import android.appwidget.AppWidgetManager;
+import android.content.ComponentName;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
+import android.database.Cursor;
 import android.net.Uri;
 
 import com.example.android.mygarden.provider.PlantContract;
